@@ -1,0 +1,231 @@
+
+
+/* Design Process Styling */
+
+.processContainer {
+  font-family: "Archivo", sans-serif;
+  color: #fff;
+  margin: 10rem  0;
+  border-bottom: 10px solid #fad007;
+  transform: skewY(-4deg);
+}
+
+.processHeader {
+  text-align: center;
+}
+
+.processTitle {
+  font-size: 72px;
+  font-weight: 700;
+  color: #262F68;
+  font-family: "Archivo";
+  line-height: 86.4px;
+}
+
+.processTitle span {
+  margin: 0 20px;
+}
+.processTitle img{
+  height: 48px;
+  width: 48px;
+  transform: rotate(4deg);
+}
+
+.processContent {
+  text-align: center;
+  background-color: #1a1f3d;
+  border-top: 10px solid #fad007;
+  position: relative;
+  padding: 6rem;
+  margin-bottom: 1rem;
+}
+.processStar1{
+  position: absolute;
+  left: 7%;
+  top: 3%;
+}
+.processStar2{
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+.processContent .leftBanner{
+  top: 20%;
+}
+
+.processSubtitle {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: 'Audiowide';
+  width: 517px;
+  margin: auto;
+  transform: skewY(4deg);
+}
+.processSubtitle .highlight{
+ display: inline-block;
+ padding: 10px 40px 0 30px ;
+}
+
+.deisgnprocessDescription {
+  font-size: 20px;
+  margin: 15px auto 30px;
+  max-width: 680px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #f3f3f3;
+  font-family: "Archivo";
+  transform: skewY(4deg);
+}
+
+.processSteps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 5rem;
+  transform: skewY(4deg);
+}
+
+.processStep {
+  background: #f3f3f3;
+  color: #000000;
+  border-radius: 66px;
+  padding: 45px 30px;
+  text-align: left;
+  display: flex;
+  gap: 30px;
+  width: 98%;
+  align-items: flex-start;
+}
+.processStep:first-child{
+  width: 100%;
+}
+.processStep:last-child{
+  width: 97%;
+}
+.processStep:last-child .processStepImage img{
+  width: 96%;
+}
+.processStepContent{
+  width: 45%;
+}
+.processStep h6{
+  font-size: 18px;
+  font-family: 400;
+  font-family: "Inter";
+}
+.processStep h3 {
+  font-size: 59px;
+  font-weight: 400;
+  font-family: "Inter";
+  display: flex;
+  align-items: center;
+}
+.processStep h3>img{
+  width: 80px;
+  height: 80px;
+}
+
+.processStep p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.processStepImage {
+  height: 203px;
+  border-radius: 66px;
+  margin-bottom: 10px;
+}
+.processStepImage img{
+  border-radius: 66px;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media (max-width: 1024px) {
+  
+  .processContent{
+    padding: 3rem 1rem 3rem 3rem;
+  }
+  .processSubtitle{
+    font-size: 38px;
+  }
+  .highlight>p{
+    font-size: 38px !important;
+  }
+  .deisgnprocessDescription{
+    font-size: 17px;
+  }
+  .processTitle{
+    font-size: 55px;
+    font-weight: 600;
+  }
+  .processTitle span{
+    margin: 0 10px;
+  }
+  .processStep{
+    width: 100%;
+  }
+  .processStep h3{
+    font-size: 45px;
+  }
+  .processStep h3>img{
+    width: 55px;
+    height: 55px;
+  }
+  .processStep p{
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  .processContainer{
+    margin: 5rem  0;
+  }
+  
+  .processContent{
+    padding: 3rem 1rem 3rem 3rem;
+  }
+  .processSubtitle{
+    font-size: 32px;
+    width: 100%;
+  }
+  .highlight>p{
+    font-size: 32px !important;
+  }
+  .deisgnprocessDescription{
+    font-size: 15px;
+  }
+  .processTitle{
+    font-size: 55px;
+    font-weight: 600;
+  }
+  .processTitle span{
+    margin: 0;
+  }
+  .processStar1{
+    top: 1%;
+    left: 2%;
+  }
+  .processStar2{
+    top: 16%;
+    right: 0;
+  }
+  .processStep{
+    width: 100%;
+    flex-direction: column;
+  }
+  .processStepContent{
+    width: 100%;
+  }
+  .processStep h3{
+    font-size: 40px;
+  }
+  .processStep h3>img{
+    width: 45px;
+    height: 45px;
+    margin-left: 50px;
+  }
+}

@@ -1,0 +1,172 @@
+/* About Section Styling */
+.aboutSection {
+  padding: 2rem 0;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.aboutUs {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.leftBanner {
+  background-color: #fad007; 
+  padding: 0.75rem 2.25rem;
+  width: 140x;
+  color: #ffffff;
+  transform: rotate(-90deg); 
+  transform-origin: top left;
+  font-family: "Archivo", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  text-align: center;
+  clip-path: polygon(0 0, 100% 0 ,86% 91%,100% 100%, 0 100%,14% 91%);
+  border-radius: 0 0 300px 300px;
+
+}
+.content{
+    display: flex;
+    align-items: center;
+    margin-left: 6rem;
+}
+.content h1 {
+  font-family: "Audiowide";
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 122.39px;
+  text-align: right;
+  margin-right: 1rem;
+  color: #262f68; 
+}
+
+.content p {
+  color: #39393b;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.32px;
+  margin-right: 1rem;
+}
+
+.contactBtn {
+  background-color: #fad007; 
+  color: #000000;
+  border: none;
+  padding: 1rem 3rem;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius:20px ;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.movingBar {
+  background-color: #fad007; 
+  overflow: hidden;
+  padding: 3.5rem 0;
+  margin-top: 2rem;
+}
+
+.imageWrapper {
+  display: flex;
+  gap: 7rem;
+  animation: moveImages 15s linear infinite; 
+}
+
+.imageWrapper img {
+  height: 50px; 
+  flex-shrink: 0;
+}
+@keyframes moveImages {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width:1024px){
+.content {
+  margin-left: 4rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.content h1 {
+  font-size: 72px; 
+  line-height: 90px;
+  text-align: left;
+}
+
+.content p {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.contactBtn {
+  padding: 0.8rem 2rem;
+  font-size: 12px;
+}
+
+.movingBar {
+  padding: 2.5rem 0; 
+}
+
+.imageWrapper {
+  gap: 5rem; 
+}
+
+.leftBanner {
+  padding: 0.5rem 2rem; 
+  font-size: 16px; 
+}
+}
+@media (max-width: 768px) {
+  .aboutUs {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .content h1 {
+    font-size: 48px; 
+    line-height: 60px;
+  }
+
+  .content p {
+    font-size: 18px; 
+    line-height: 24px;
+  }
+
+  .contactBtn {
+    padding: 0.6rem 1.5rem;
+    font-size: 12px;
+  }
+
+  .movingBar {
+    padding: 2rem 0; 
+  }
+
+  .imageWrapper {
+    gap: 3rem;
+    animation-duration: 10s; 
+  }
+
+  .leftBanner {
+    padding: 0.5rem 1.3rem;
+    font-size: 14px; 
+  }
+}

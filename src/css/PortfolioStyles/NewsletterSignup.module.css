@@ -1,0 +1,94 @@
+
+.signupContainer {
+    background-color: #ffc310; /* Bright yellow */
+    padding: 30px 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Inter';
+    margin: 100px auto -20px;
+    width: 80%;
+    position: relative;
+  }
+  
+  .subHeading {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .heading {
+    font-family: 'Poppins';
+    font-size: 59px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  
+  .signupForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .inputGroup {
+    width: 70%;
+    margin: 10px  auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 2px solid #262f68;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    background-color: transparent;
+    color: #262f68;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .inputField::placeholder {
+    color: #262f68; /* Light white for placeholder */
+  }
+  
+  .submitButton {
+    background: transparent;
+    border: none;
+    color: #262f68;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  .submitButton img{
+    width: 24px;
+    height: 24px;
+  }
+  .submitButton:hover {
+    transform: scale(1.1);
+  }
+  @media (max-width:970px) {
+    .heading{
+        font-size: 45px;
+    }
+  }
+  
+  @media (max-width:615px) {
+    .subHeading{
+        font-size: 18px;
+    }
+    .heading{
+        font-size: 25px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .signupContainer{
+        width: 98%;
+    }
+    .inputGroup {
+      width: 100%;
+    }
+  }
+  

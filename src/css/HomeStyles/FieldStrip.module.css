@@ -1,0 +1,63 @@
+.fieldStripSection{
+    padding-top: 6rem;
+    max-width: 100vw;
+overflow: hidden;
+min-height: 50vh;
+position: relative;
+}
+.fieldYellow{
+    transform: rotate(6.7deg);
+}
+.fieldBlue{
+    transform: rotate(-6.7deg);
+}
+.fieldStrip{
+    z-index: 1;
+    position: absolute;
+    left: -10px;
+    width: 120%;
+    display: flex;
+    gap: .5rem;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 60px;
+}
+
+.fieldStrip img{
+    padding-left: 1rem;
+}
+.fieldStrip p{
+    font-family: "Audiowide",sans-serif;
+font-size: .95rem;
+font-weight: 400;
+line-height: 1.25rem;
+text-transform: uppercase;
+text-align: left;
+}
+@media (max-width: 992px) {
+    .fieldYellow,.fieldBlue{
+        transform:rotate(0);
+    }
+    .fieldStrip{
+        position: static;
+        width: 100%;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    }
+
+}
+@media (max-width: 768px) {
+    .fieldStrip{
+        display:flex;
+        align-items: center;
+        padding: 1rem .25rem;
+    }
+    .fieldStrip img{
+        padding: 0.25rem ;
+    }
+    .fieldStrip p{
+        
+        font-size: .75rem;
+    }
+}
+

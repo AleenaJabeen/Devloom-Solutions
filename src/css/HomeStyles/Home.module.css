@@ -1,0 +1,627 @@
+/* About Section Styling */
+.aboutSection {
+  padding: 2rem 0;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.aboutUs {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.leftBanner {
+  background-color: #fad007; 
+  padding: 0.75rem 2.25rem;
+  width: 140x;
+  color: #ffffff;
+  transform: rotate(-90deg); 
+  transform-origin: top left;
+  font-family: "Archivo", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  text-align: center;
+  clip-path: polygon(0 0, 100% 0 ,86% 91%,100% 100%, 0 100%,14% 91%);
+  border-radius: 0 0 300px 300px;
+
+}
+.content{
+    display: flex;
+    align-items: center;
+    margin-left: 6rem;
+}
+.content h1 {
+  font-family: "Audiowide";
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 122.39px;
+  text-align: right;
+  margin-right: 1rem;
+  color: #262f68; 
+}
+
+.content p {
+  color: #39393b;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.32px;
+  margin-right: 1rem;
+}
+
+.contactBtn {
+  background-color: #fad007; 
+  color: #000000;
+  border: none;
+  padding: 1rem 3rem;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius:20px ;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.movingBar {
+  background-color: #fad007; 
+  overflow: hidden;
+  padding: 3.5rem 0;
+  margin-top: 2rem;
+}
+
+.imageWrapper {
+  display: flex;
+  gap: 7rem;
+  animation: moveImages 15s linear infinite; 
+}
+
+.imageWrapper img {
+  height: 50px; 
+  flex-shrink: 0;
+}
+@keyframes moveImages {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/* Service section styling */
+.serviceContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: "Archivo";
+  color: #fff;
+  position: relative;
+  margin: 5rem 0;
+}
+
+.serviceContent {
+  background: #fff;
+  color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 6rem;
+  gap: 2rem;
+}
+.services{
+  width: 452px;
+}
+.serviceContainer .leftBanner{
+  top: 30%;
+}
+.heading~p{
+  color: #444444;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 2.125rem;
+  margin-bottom: 1rem;
+}
+
+.heading {
+  text-align: left;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.heading>p{
+  font-size: 40px;
+  font-weight: 600;
+  margin-right: 0.7rem;
+  color: #222222;
+}
+.highlight {
+  background: #fad007;
+  color: #222222;
+  border-radius: 10px;
+  padding: 11px 15px 14px;
+  transform: skewX(-15deg);
+}
+.highlight>p{
+  transform: skewX(15deg);
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.servicesList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.serviceItem:first-child{
+  background-color: #262F68;
+  color: #ffffff;
+}
+.serviceItem:first-child .serviceNumber{
+  color: #fad007;
+}
+.serviceItem { 
+  color:#262F68;
+  display: flex;
+  align-items: center;
+  padding: 15px 40px 15px 20px;
+  gap: 0px;
+  width: 452px;
+  border-radius: 120px;
+  border: 1px solid #DDDDDD;
+  justify-content: space-between;
+  opacity: 0px;
+}
+
+.serviceNumber {
+  font-weight: bold;
+  font-size: 24px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+.serviceButton {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+  cursor: pointer;
+}
+
+.imageSection {
+  display: flex;
+  margin-top: 30px;
+  padding-top: 15px;
+  gap: 20px;
+  width: 680px;
+}
+
+.mainImage {
+  width: 455px;
+  height: 490px;
+  border-radius: 32px;
+}
+
+.infoBoxes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 250px;
+}
+.infoBox:first-child{
+  background: #262f68;
+  color: #ffffff;
+}
+.infoBox:last-child{
+  color: #222222;
+  background: #fad007;
+}
+.infoBox {
+  padding: 30px;
+  border-radius: 32px;
+  font-weight: 400;
+  font-size: 16px;
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.infoButton {
+  border: none;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 25px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.infoBox:last-child .infoimg{
+  background-color: #ffffff;
+}
+.infoimg{
+  min-width: 50px ;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fad007;
+}
+.infoimg img{
+  width: 24px;
+}
+
+/* Design Process Styling */
+
+.processContainer {
+  font-family: "Archivo", sans-serif;
+  color: #fff;
+  margin: 10rem  0;
+  border-bottom: 10px solid #fad007;
+  /* transform: rotate(-4.5deg); */
+}
+
+.processHeader {
+  text-align: center;
+}
+
+.processTitle {
+  font-size: 72px;
+  font-weight: 700;
+  color: #262F68;
+  font-family: "Archivo";
+  line-height: 86.4px;
+}
+
+.processTitle span {
+  margin: 0 20px;
+}
+.processTitle img{
+  height: 48px;
+  width: 48px;
+  transform: rotate(4deg);
+}
+
+.processContent {
+  text-align: center;
+  background-color: #1a1f3d;
+  border-top: 10px solid #fad007;
+  position: relative;
+  padding: 6rem;
+  margin-bottom: 1rem;
+}
+.processStar1{
+  position: absolute;
+  top: 3%;
+}
+.processStar2{
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+.processContent .leftBanner{
+  top: 20%;
+}
+
+.processSubtitle {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: 'Audiowide';
+  width: 517px;
+  margin: auto;
+}
+.processSubtitle .highlight{
+ display: inline-block;
+ padding: 10px 40px 0 30px ;
+}
+
+.processDescription {
+  font-size: 20px;
+  margin: 15px auto 30px;
+  max-width: 680px;
+  font-weight: 400;
+  line-height: 34px;
+  font-family: "Archivo";
+}
+
+.processSteps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 5rem;
+}
+
+.processStep {
+  background: #f3f3f3;
+  color: #000000;
+  border-radius: 66px;
+  padding: 45px 30px;
+  text-align: left;
+  display: flex;
+  gap: 30px;
+  width: 98%;
+  align-items: flex-start;
+}
+.processStep:first-child{
+  width: 100%;
+}
+.processStep:last-child{
+  width: 97%;
+}
+.processStep:last-child .processStepImage img{
+  width: 96%;
+}
+.processStepContent{
+  width: 45%;
+}
+.processStep h6{
+  font-size: 18px;
+  font-family: 400;
+  font-family: "Inter";
+}
+.processStep h3 {
+  font-size: 59px;
+  font-weight: 400;
+  font-family: "Inter";
+  display: flex;
+  align-items: center;
+}
+.processStep h3>img{
+  width: 80px;
+  height: 80px;
+}
+
+.processStep p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.processStepImage {
+  height: 203px;
+  border-radius: 66px;
+  margin-bottom: 10px;
+}
+.processStepImage img{
+  border-radius: 66px;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1024px) {
+    .content {
+      margin-left: 4rem;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .content h1 {
+      font-size: 72px; 
+      line-height: 90px;
+      text-align: left;
+    }
+  
+    .content p {
+      font-size: 20px;
+      line-height: 26px;
+    }
+  
+    .contactBtn {
+      padding: 0.8rem 2rem;
+      font-size: 12px;
+    }
+  
+    .movingBar {
+      padding: 2.5rem 0; 
+    }
+  
+    .imageWrapper {
+      gap: 5rem; 
+    }
+  
+    .leftBanner {
+      padding: 0.5rem 2rem; 
+      font-size: 16px; 
+    }
+    .processContent{
+      padding: 3rem 1rem 3rem 3rem;
+    }
+    .processSubtitle{
+      font-size: 38px;
+    }
+    .processDescription{
+      font-size: 17px;
+    }
+    .processTitle{
+      font-size: 55px;
+      font-weight: 600;
+    }
+    .processTitle span{
+      margin: 0 10px;
+    }
+    .processStep{
+      width: 100%;
+    }
+    .processStep h3{
+      font-size: 45px;
+    }
+    .processStep h3>img{
+      width: 55px;
+      height: 55px;
+    }
+    .processStep p{
+      font-size: 13px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .aboutUs {
+      flex-direction: column;
+      gap: 1.5rem;
+      align-items: flex-start;
+    }
+  
+    .content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .content h1 {
+      font-size: 48px; 
+      line-height: 60px;
+    }
+  
+    .content p {
+      font-size: 18px; 
+      line-height: 24px;
+    }
+  
+    .contactBtn {
+      padding: 0.6rem 1.5rem;
+      font-size: 12px;
+    }
+  
+    .movingBar {
+      padding: 2rem 0; 
+    }
+  
+    .imageWrapper {
+      gap: 3rem;
+      animation-duration: 10s; 
+    }
+  
+    .leftBanner {
+      padding: 0.5rem 1.3rem;
+      font-size: 14px; 
+    }
+    .serviceContainer {
+      flex-direction: column;
+      margin: 2rem 1rem 2rem 0;
+    }
+    .serviceContent{
+      margin-left: 3rem;
+      gap: 1rem;
+      flex-direction: column;
+      align-items: center;
+    }
+    .serviceContainer .leftBanner{
+      top: 15%;
+    }
+    .services {
+      width: 90%;
+      text-align: center;
+    }
+  
+    .servicesList {
+      gap: 10px;
+      align-items: center;
+    }
+  
+    .serviceItem {
+      width: 100%;
+      padding: 10px 10px;
+    }
+    .serviceButton{
+      font-size: 20px;
+      font-weight: 200;
+      padding-right: 0;
+      padding-left: 0;
+    }
+    .serviceNumber{
+      margin-right: 2px;
+    }
+  
+    .imageSection {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 0;
+      padding-top: 0;
+      gap: 15px;
+      width: 100%;
+    }
+  
+    .mainImage {
+      width: 90%;
+      height: auto;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+  
+    .infoBoxes {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+    }
+  
+    .infoBox {
+      width: 48%;
+      height: 140px;
+      padding: 15px;
+      font-size: 14px;
+    }
+  
+    .infoButton {
+      font-size: 18px;
+      line-height: 20px;
+    }
+  
+    .infoimg {
+      min-width: 40px;
+      height: 40px;
+    }
+  
+    .infoimg img {
+      width: 20px;
+    }
+    .processContent{
+      padding: 3rem 1rem 3rem 3rem;
+    }
+    .processSubtitle{
+      font-size: 32px;
+      width: 100%;
+    }
+    .processDescription{
+      font-size: 15px;
+    }
+    .processTitle{
+      font-size: 55px;
+      font-weight: 600;
+    }
+    .processTitle span{
+      margin: 0;
+    }
+    .processStar1{
+      top: 1%;
+      left: 2%;
+    }
+    .processStar2{
+      top: 16%;
+      right: 0;
+    }
+    .processStep{
+      width: 100%;
+      flex-direction: column;
+    }
+    .processStepContent{
+      width: 100%;
+    }
+    .processStep h3{
+      font-size: 40px;
+    }
+    .processStep h3>img{
+      width: 45px;
+      height: 45px;
+      margin-left: 50px;
+    }
+  }

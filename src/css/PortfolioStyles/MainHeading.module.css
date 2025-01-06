@@ -1,0 +1,125 @@
+.portfolioContainer {
+    color: #262F68;
+    text-align: center;
+    padding: 2rem;
+    margin: 0rem 0 5rem;
+  }
+  
+  .portfolioHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 12px;
+    padding:  0 2rem;
+    color: #000000;
+  }
+  .portfolioHeader p{
+    width: 148px;
+    text-align: end;
+  }
+  
+  .portfolio {
+    position: relative;
+    font-family: "Audiowide";
+  }
+  
+  .portfolio h1 {
+    font-size: 140px;
+    font-weight: 400;
+    color: #262F68;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 0.2rem;
+  }
+  
+  .tags {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  
+  .tag {
+    background-color: #FCCF12;
+    color: #262F68;
+    padding: 0.55rem 2rem;
+    border-radius: 41px;
+    text-transform: uppercase;
+    position: absolute;
+  }
+  .tag1{
+    top: 50%;
+    left: 1%;
+  }
+  .tag2{
+    top: 25%;
+    left: 14%;
+  }
+  .tag3{
+    top: 45%;
+    left: 34%;
+  }
+  .tag4{
+    top: 30%;
+    right: 19%;
+  }
+  .tag5{
+    top: 43%;
+    right: 2%;
+  }
+
+  @media (max-width:950px){
+    .portfolioHeader{
+        padding: 2rem 0;
+    }
+    .portfolio h1{
+        font-size: 100px;
+    }
+    .tag2,.tag4{
+        top: 10%;
+    }
+    .tag{
+        padding: 0.4rem 1.25rem;
+    }
+  }
+  @media(max-width:676px){
+    .portfolioContainer{
+        padding: 2rem 0;
+    }
+    .portfolioHeader{
+        font-size: 9px;
+        padding: 1.5rem 0.5rem;
+    }
+    .portfolio h1{
+        font-size: 48px;
+    }
+    .tag{
+        font-size: 10px;
+    }
+    .tag1{
+        top:50%;
+        left:0%;
+    }
+    .tag2{
+        top: -10%;
+        left: 10%;
+    }
+    .tag3{
+        top: 50%;
+        left: 30%;
+    }
+    .tag4{
+        top: -10%;
+        right: 10%;
+    }
+    .tag5{
+        top: 50%;
+        right: 0%;
+    }
+  }

@@ -1,0 +1,169 @@
+:root{
+  --primary-bg: #262F68;
+    --accent: #FFC310;
+    --grey: #A7A7A7;
+    --white: #FFFFFF;
+}  
+  .footer {
+    background-color: var(--primary-bg);
+    color: var(--white);
+    padding: 2rem 1rem;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 4rem;
+    border-bottom: 0.5px solid #757575;
+  }
+  .column h4 {
+    color: var(--white);
+    font-family: "Lexend Deca";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+  .underline{
+    width: 47px;
+    height: 2px;
+    background-color: var(--accent);
+    margin: 1rem 0;
+  }
+  
+  .column p,
+  .column ul {
+    margin: 0;
+    list-style: none;
+  }
+  
+  .column ul li {
+    margin: 0.5rem 0;
+  }
+  
+  .column ul li a,
+  .column p {
+    color: var(--grey);
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+  }
+  
+  .socialIcons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .icon {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 2.25rem;
+    height: 2.25rem;
+    background-color: var(--accent);
+    border-radius: 50%; 
+  }
+  
+  .column input {
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    margin-top: 1rem;
+    margin-right: 50px;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    font-family: "Lexend Deca";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 37.24px;
+  }
+   .column input::placeholder{
+    font-family: "Lexend Deca";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 37.24px;
+  }
+  
+  
+  .signUpbutton {
+    padding: 0.5rem 0.75rem;
+    background-color: var(--accent);
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25.6px;
+  }
+  .bottomNav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 2rem 0 0;
+    padding: 0;
+  }
+  
+  .bottomNav a {
+    color: var(--white);
+    text-decoration: none;
+    font-family: "Lexend Deca";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.4px;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+        flex-wrap: wrap; 
+        flex-direction: row;
+        gap: 2rem; 
+      }
+    
+      .column {
+        flex: 1 1 calc(50% - 2rem);
+        max-width: calc(50% - 2rem); 
+        box-sizing: border-box; 
+        
+      }
+      .signUpbutton {
+        margin-top: 0.5rem;
+        padding: 1rem 1.25rem;
+      }
+      .column:last-child{
+        height: 100%;
+        padding-bottom: 0.75rem;
+        border-bottom: 0.5px solid #757575;
+      }
+  }
+  
+  @media (min-width: 1024px) {
+    .footer{
+        padding: 7rem 3rem 2rem;
+    }
+    .container {
+        justify-content: space-between; 
+        gap: 1.5rem; 
+      }
+    
+      .column {
+        flex: 0 1 auto; 
+        max-width: none; 
+      }
+      .column p{
+        width: 23vw;
+      }
+      .bottomNav{
+        padding-right: 5rem;
+      }
+      .bottomNav ul{
+        gap: 2.5rem;
+      }
+  }
+  

@@ -1,0 +1,95 @@
+/* Testimonial Styling */
+.testimonialsSection h2{
+    font-family: "Audiowide",sans-serif;
+font-size: 4rem;
+font-weight: 400;
+line-height: 4.5rem;
+text-align: center;
+text-transform: uppercase;
+color: var(--primary-bg);
+padding: 2rem;
+}
+.testimonialsSection p{
+    font-family: "Poppins",sans-serif;
+font-size: 1.25rem;
+font-weight: 500;
+line-height: 1.85rem;
+text-align: center;
+color: #000000;
+padding-bottom: 2rem;
+
+}
+.testimonialsOne,.testimonialsTwo{
+    scrollbar-width: none;
+    overflow: scroll;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+}
+::-webkit-scrollbar-track{
+    outline: none;
+    border: none;
+}
+::-webkit-scrollbar{
+    width: none;
+}
+
+/* Testimonial Card styling */
+.testimonialCard{
+    min-width: 489px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Poppins",sans-serif;
+    padding: 1rem 1.5rem;
+    gap: 1rem;
+    border-radius: 512px;
+
+}
+.testimonialCard h3{
+
+font-size: 24.62px;
+font-weight: 800;
+line-height: 36.94px;
+text-align: center;
+color: var(--white);
+
+}
+.testimonialCard p{
+font-size: .65rem;
+font-weight: 400;
+line-height: 1.05rem;
+color: var(--white);
+}
+@media (max-width:768px){
+    .testimonialsSection h2{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .testimonialsSection p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+}
+@media (max-width:576px){
+    /* Testimonial section */
+    .testimonialsSection h2{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .testimonialsSection p{
+        font-size: .95rem;
+        line-height: 1.35rem;
+    }
+    /* Testimonial Card */
+    .testimonialCard{
+        min-width:90vw;
+        border-radius: 50px;
+        gap: .25rem;
+    }
+
+}

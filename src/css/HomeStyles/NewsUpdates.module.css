@@ -1,0 +1,161 @@
+.newsUpdatesSection{
+    position: relative;
+}
+
+.newsUpdatesWrapper{
+    padding: 3rem 4rem;
+}
+
+.leftBanner {
+    background-color: #fad007; 
+    padding: 0.75rem 2.25rem;
+    width: 140x;
+    color: #ffffff;
+    transform: rotate(-90deg); 
+    transform-origin: top left;
+    font-family: "Archivo", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0 ,86% 91%,100% 100%, 0 100%,14% 91%);
+    border-radius: 0 0 300px 300px;
+  
+  }
+.blog{
+font-family: "Inter",sans-serif;
+font-size: .85rem;
+font-weight: 700;
+line-height: 1rem;
+text-align: center;;
+background-color: var(--primary-bg);
+border: none;
+color: var(--white);
+padding: .75rem 1.5rem;
+text-transform: uppercase;
+border-radius: 30px;
+
+}
+.newsUpdatesWrapper h2{
+    color:  #312F2F;
+    font-family: "Audiowide",sans-serif;
+font-size: 2.5rem;
+font-weight: 400;
+line-height: 3.25rem;
+letter-spacing: -0.022em;
+}
+  .newsSection{
+    padding:4rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D1D1D1;
+
+  }
+  /* news card styling */
+  .newsCard{
+    width: 28vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-direction: column;
+    border-right: 1px solid #D1D1D1;
+    padding-right: 1rem;
+  }
+  .newsCard img{
+    width: 100%;
+  }
+  .newsCard h3{
+    font-family: sans-serif;
+font-size: 1.5rem;
+font-weight: 600;
+line-height: 2rem;
+letter-spacing: -0.019em;
+text-align: left;
+color: #000000;
+
+  }
+  .newsCard button{
+    border: 1.5px solid var(--primary-bg);
+    padding: .5rem;
+    background-color: transparent;
+    border-radius: 20px;
+    font-family: "Inter",sans-serif;
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1rem;
+    text-align: center;
+    color: #000000;
+    
+  }
+  .newsCard p{
+    font-family:sans-serif;
+font-size: 1.25rem;
+font-weight: 500;
+line-height: 1.75rem;
+letter-spacing: -0.017em;
+text-align: left;
+color: #939394;
+  }
+  .newsCard h4{
+    font-family: sans-serif;
+font-size: 1rem;
+font-weight: 600;
+line-height: 1.27rem;
+color:#312F2F;
+letter-spacing: -0.011em;
+text-align: left;
+text-decoration-line: underline;
+text-decoration-style: solid;
+
+  }
+  @media (max-width: 1024px) {
+    .leftBanner {
+        padding: 0.5rem 2rem; 
+        font-size: 16px; 
+      }
+
+  }
+  @media (max-width:912px){
+    .newsSection{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        border: none;
+    }
+    .newsCard{
+        width: 100%;
+        border: none;
+        padding-right: 0;
+    }
+    
+  }
+  @media (max-width:768px){
+    .newsUpdatesWrapper{
+padding: 1rem 2.5rem;
+    }
+    .newsUpdatesWrapper h2{
+        font-size: 1.75rem;
+        line-height: 3rem;
+    }
+    .leftBanner {
+        padding: 0.5rem 1.3rem;
+        font-size: 14px; 
+      }
+      .newsCard h3{
+        font-size: 1.15rem;
+line-height: 1.5rem;
+    }
+    .newsCard p{
+        font-size: 1.15rem;
+        line-height: 1.5rem;
+    }
+    .newsCard h4{
+        font-size: .95rem;
+    }
+  }

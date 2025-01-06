@@ -1,0 +1,118 @@
+.featureContainer {
+    background-color: #262f68; /* Deep blue */
+    color: #ffffff;
+    padding: 7rem 1rem;
+    margin: 3rem 0;
+    text-align: center;
+    clip-path: polygon(
+    0% 5%, 5% 4%, 6% 3%, 12% 4%, 13% 5%, 16% 4%, 17% 4.5%, 22% 2%, 25% 4%, 27% 3%, 29% 4%, 
+    32% 3.5%, 35% 3%, 36% 4%, 40% 5%, 43% 5.5%, 45% 6.5%, 47% 5.5%, 50% 5%, 54% 4.5%, 60% 5.5%, 
+    62% 4.5%, 62% 3%, 65% 4%, 68% 3%, 70% 4%, 73% 3%, 74% 2.5%, 75% 3%, 77% 5%, 80% 4%, 83% 3%, 
+    87% 5%, 90% 4%, 93% 3%, 96% 6%, 100% 5%, 
+    /* Move to bottom side */
+    100% 95%, 95% 96%, 94% 97%, 88% 96%, 87% 95%,84% 96%, 83% 95.5%, 78% 98%, 75% 96%, 73% 97%, 71% 96%,
+    68% 96.5%, 65% 97%,64% 96%, 60% 95%, 57% 94.5%, 55% 93.5%, 53% 94.5%, 50% 95%, 
+    46% 95.5%, 40% 94.5%,38% 95.5%, 38% 97%, 35% 96%, 32% 97%, 30% 96%, 27% 97%,26% 97.5%, 25% 97%,23% 95%, 20% 96%, 
+    17% 97%, 13% 95%, 10% 96%, 7% 97%, 4% 94%, 0% 95%
+  ); 
+  }
+  
+  .featureTitle {
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Audiowide';
+    text-transform: uppercase;
+    padding: 1rem 1rem 0;
+    width: 600px;
+    margin: auto;
+    margin-bottom: -2rem;
+    z-index: 1;
+  }
+  
+  .featureContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11rem 3rem;
+    gap: 2rem;
+    position: relative;
+    background-image: url(../../Assets/PortfolioAssets/AppFeature.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+  }
+  
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5rem;
+
+  }
+  
+  .featureItem {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    font-family: 'Poppins';
+  }
+  .features:first-child{
+    text-align: start;
+  }
+  .features:last-child{
+    text-align: end;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .featureItem h3 {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+    font-weight: 700;
+    color: #ffC310
+  }
+  
+  .featureItem p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color:var(--white);
+
+  }
+  
+  /* .mockup {
+    position: relative;
+    width: 200px;
+    height: 400px;
+  } */
+  
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  @media (max-width:670px){
+    .featureTitle{
+        width: 100%;
+    }
+    .featureContent{
+        padding: 8rem 0;
+        flex-direction: column;
+        gap: 1rem;
+        background-image: none;
+    }
+.features{
+    gap: 1rem;
+}
+    .featureItem{
+        text-align: center;
+    }
+    .featureContainer{
+        padding: 4rem 0;
+    }
+  }
