@@ -26,7 +26,6 @@ const HomeServicesFile = () => {
             Devloom offers a range of design services that are tailored to meet
             the unique needs of each client.
           </p>
-          <p>Hello its started</p>
           <div className={styles.servicesList}>
             <div className={styles.serviceItem}>
               <p className={styles.serviceButton}>
@@ -44,7 +43,7 @@ const HomeServicesFile = () => {
               <p className={styles.serviceButton}>
                 <span className={styles.serviceNumber}>03 </span>Branding
               </p>
-              <p>heheheh</p>
+            
               <img src={RightArrow} alt="right arrow" />
             </div>
             <div className={styles.serviceItem}>
