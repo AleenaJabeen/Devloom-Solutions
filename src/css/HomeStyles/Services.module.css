@@ -101,7 +101,7 @@
   border-radius: 120px;
   border: 1px solid #DDDDDD;
   justify-content: space-between;
-  opacity: 0px;
+  /* opacity: 0px; */
 }
 
 .serviceNumber {
