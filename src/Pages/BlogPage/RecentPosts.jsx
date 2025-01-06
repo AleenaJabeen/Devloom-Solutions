@@ -1,9 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import styles from "../../css/BlogStyles/RecentPosts.module.css";
 import { RecentPost } from "../../Assets";
 
 function RecentPosts() {
+  const navigate=useNavigate();
+  const handleReadMore = () => {
+    navigate("/blogdetail");
+    window.scrollTo(0, 0); // Ensure scroll-to-top works
+  };
   return (
     <>
       <section className={styles.recentPostsSection}>
@@ -32,9 +37,9 @@ function RecentPosts() {
               developing tools and resources that enable others, we’re committed
               to making AI accessible to everyone.
             </p>
-            <Link to="/blogdetail" className={styles.readMoreBtn}>
+            <div onClick={handleReadMore} className={styles.readMoreBtn}>
               Read More
-            </Link>
+            </div>
           </div>
         </div>
       </section>
