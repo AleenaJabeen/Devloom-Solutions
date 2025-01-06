@@ -5,9 +5,10 @@ import LatestProjects from './LatestProjects'
 import Testimonials from './Testimonials';
 import About from './About';
 import DesignProcess from './DesignProcess';
-import ServicesHome from './ServicesHome';
+
 import SignUp from './SignUp';
 import NewsUpdates from './NewsUpdates';
+import HomeServicesFile from './HomeServicesFile';
 
 function Home() {
   return (
@@ -15,7 +16,7 @@ function Home() {
     <HeroSection/>
     <FieldStripSection/>
     <About/>
-    <ServicesHome/>
+   <HomeServicesFile/>
     <DesignProcess/>
     <LatestProjects/>
     <Testimonials/>
