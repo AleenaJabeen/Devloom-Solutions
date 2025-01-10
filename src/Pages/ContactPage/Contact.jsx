@@ -4,7 +4,7 @@ import ContactForm from './ContactForm'
 import GetInTouch from './GetInTouch'
 import ContactUs from './ContactUs'
 import InnovateStrip from './InnovateStrip'
-// import Services from './Services'
+import Services from './Services';
 
 function Contact() {
   return (
@@ -12,7 +12,7 @@ function Contact() {
       <MainSection />
       <ContactForm />
       <ContactUs/>
-      {/* <Services/> */}
+      <Services/>
       <GetInTouch/>
       <InnovateStrip/>
     </>

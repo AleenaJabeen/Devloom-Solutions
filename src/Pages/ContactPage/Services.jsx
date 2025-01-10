@@ -7,6 +7,7 @@ function Services() {
   return (
     <>
     <section className={styles.servicesSection}>
+      <div className={styles.servicesWrapper}>
     <div className={styles.playContainer}>
                 <img src={play} alt="Play Button" className={styles.playImg} />
                 <svg
@@ -27,13 +28,19 @@ function Services() {
                   </text>
                 </svg>
               </div>
-        <span className={styles.circle}></span>
+       <div className='productWrapper'>
+        <div className={styles.productServices}>
         <span className={`${styles.services} ${styles.service1}`}>web design</span>
         <span className={`${styles.services} ${styles.service2}`}>app design</span>
         <span className={`${styles.servicesFilled} ${styles.service3}`}>web development</span>
-        <span className={`${styles.servicesFilled} ${styles.service4}`}>marketing</span>
+       
         <span className={`${styles.services} ${styles.service5}`}>branding strategy</span>
+        <span className={`${styles.servicesFilled} ${styles.service4}`}>marketing</span>
         <span className={`${styles.services} ${styles.service6}`}>app development</span>
+        </div>
+        </div>
+        <div className={styles.circleWrapper}><span className={styles.circle}></span></div>
+        </div>
     </section>
       
     </>
