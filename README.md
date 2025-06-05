@@ -1,9 +1,9 @@
 
 
+![screencapture-devloom-website-six-vercel-app-2025-06-05-12_58_38](https://github.com/user-attachments/assets/0ead2812-e418-40c0-be6a-d53a28e490fb)
 
 
 ![devlooom](https://github.com/user-attachments/assets/76833ad5-5b08-4481-bd22-837b3f803111)
-[AleenaJabeen Resume.pdf](https://github.com/user-attachments/files/20605719/AleenaJabeen.Resume.pdf)
 
 
 # Getting Started with Create React App
