@@ -15,7 +15,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start`
-![screencapture-devloom-website-six-vercel-app-2025-06-05-12_58_38](https://github.com/user-attachments/assets/cb277769-ff0f-4ddc-9b96-bc2611499c2d)
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
