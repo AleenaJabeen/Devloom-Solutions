@@ -3,6 +3,7 @@
 
 
 ![devlooom](https://github.com/user-attachments/assets/76833ad5-5b08-4481-bd22-837b3f803111)
+[AleenaJabeen Resume.pdf](https://github.com/user-attachments/files/20605719/AleenaJabeen.Resume.pdf)
 
 
 # Getting Started with Create React App
@@ -14,6 +15,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start`
+![screencapture-devloom-website-six-vercel-app-2025-06-05-12_58_38](https://github.com/user-attachments/assets/cb277769-ff0f-4ddc-9b96-bc2611499c2d)
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
